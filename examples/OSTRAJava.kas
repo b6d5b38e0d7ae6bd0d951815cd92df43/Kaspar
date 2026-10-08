@@ -1,0 +1,732 @@
+MAGIC: "Kaspar"
+VERSION: 1.0.0
+MODEL_BINDING:
+  ID: "Gemma 4 31B"
+  TEMPERATURE: 0.99
+VIBE_HASH: 0xDEADE900 (Depression Level: Severe)
+---
+MANIFEST:
+  OSTRAJava/:
+    .gitignore:
+      DCL: 42
+      INTENT: "Some binary or text file, make it work."
+    README.md:
+      DCL: 1
+      INTENT: "Documentation explaining how to survive the codebase."
+    build/:
+      build_package.sh:
+        DCL: 1
+        INTENT: "Some binary or text file, make it work."
+    examples/:
+      Expressions/:
+        Expressions.cyp:
+          DCL: 100
+          INTENT: "A CYPA script for Expressions.cyp, representing the harsh reality of Ostrava."
+      Float/:
+        Float.cyp:
+          DCL: 69
+          INTENT: "A CYPA script for Float.cyp, representing the harsh reality of Ostrava."
+      HeapDirty/:
+        HeapDirty.cyp:
+          DCL: 100
+          INTENT: "A CYPA script for HeapDirty.cyp, representing the harsh reality of Ostrava."
+      HeapTenure/:
+        HeapTenure.cyp:
+          DCL: 100
+          INTENT: "A CYPA script for HeapTenure.cyp, representing the harsh reality of Ostrava."
+      Overload/:
+        Overload.cyp:
+          DCL: 69
+          INTENT: "A CYPA script for Overload.cyp, representing the harsh reality of Ostrava."
+      Overload2/:
+        Overload2.cyp:
+          DCL: 42
+          INTENT: "A CYPA script for Overload2.cyp, representing the harsh reality of Ostrava."
+      Prints/:
+        Prints.cyp:
+          DCL: 1
+          INTENT: "A CYPA script for Prints.cyp, representing the harsh reality of Ostrava."
+      SATSolver/:
+        CNF.cyp:
+          DCL: 1
+          INTENT: "A CYPA script for CNF.cyp, representing the harsh reality of Ostrava."
+        Klauzule.cyp:
+          DCL: 1
+          INTENT: "A CYPA script for Klauzule.cyp, representing the harsh reality of Ostrava."
+        Ostrava.cyp:
+          DCL: 42
+          INTENT: "A CYPA script for Ostrava.cyp, representing the harsh reality of Ostrava."
+        Parsovac.cyp:
+          DCL: 69
+          INTENT: "A CYPA script for Parsovac.cyp, representing the harsh reality of Ostrava."
+        Promenna.cyp:
+          DCL: 1
+          INTENT: "A CYPA script for Promenna.cyp, representing the harsh reality of Ostrava."
+        Reseni.cyp:
+          DCL: 100
+          INTENT: "A CYPA script for Reseni.cyp, representing the harsh reality of Ostrava."
+        Resic.cyp:
+          DCL: 100
+          INTENT: "A CYPA script for Resic.cyp, representing the harsh reality of Ostrava."
+      Super/:
+        Super.cyp:
+          DCL: 100
+          INTENT: "A CYPA script for Super.cyp, representing the harsh reality of Ostrava."
+      While/:
+        While.cyp:
+          DCL: 100
+          INTENT: "A CYPA script for While.cyp, representing the harsh reality of Ostrava."
+    java-examples/:
+      Test.java:
+        DCL: 100
+        INTENT: "Implement the Java logic for Test.java with a strong Ostrava accent."
+      Test2.java:
+        DCL: 69
+        INTENT: "Implement the Java logic for Test2.java with a strong Ostrava accent."
+    osrc/:
+      HeapOverflow.cyp:
+        DCL: 42
+        INTENT: "A CYPA script for HeapOverflow.cyp, representing the harsh reality of Ostrava."
+    ostrajava:
+      DCL: 42
+      INTENT: "Some binary or text file, make it work."
+    ostrajava_lib/:
+      src/:
+        Bafr.cyp:
+          DCL: 1
+          INTENT: "A CYPA script for Bafr.cyp, representing the harsh reality of Ostrava."
+        Bazmek.cyp:
+          DCL: 1
+          INTENT: "A CYPA script for Bazmek.cyp, representing the harsh reality of Ostrava."
+        Citac.cyp:
+          DCL: 1
+          INTENT: "A CYPA script for Citac.cyp, representing the harsh reality of Ostrava."
+        CysloCele.cyp:
+          DCL: 69
+          INTENT: "A CYPA script for CysloCele.cyp, representing the harsh reality of Ostrava."
+        Dryst.cyp:
+          DCL: 42
+          INTENT: "A CYPA script for Dryst.cyp, representing the harsh reality of Ostrava."
+        Konzola.cyp:
+          DCL: 42
+          INTENT: "A CYPA script for Konzola.cyp, representing the harsh reality of Ostrava."
+        Pole.cyp:
+          DCL: 42
+          INTENT: "A CYPA script for Pole.cyp, representing the harsh reality of Ostrava."
+    ostrajavac:
+      DCL: 100
+      INTENT: "Some binary or text file, make it work."
+    pom.xml:
+      DCL: 1
+      INTENT: "Standard Maven POM, but angrier."
+    resources/:
+      sats/:
+        01.txt:
+          DCL: 42
+          INTENT: "Some binary or text file, make it work."
+        02.txt:
+          DCL: 42
+          INTENT: "Some binary or text file, make it work."
+        03.txt:
+          DCL: 42
+          INTENT: "Some binary or text file, make it work."
+        04.txt:
+          DCL: 42
+          INTENT: "Some binary or text file, make it work."
+        05.txt:
+          DCL: 42
+          INTENT: "Some binary or text file, make it work."
+        06.txt:
+          DCL: 42
+          INTENT: "Some binary or text file, make it work."
+        07_hard.txt:
+          DCL: 100
+          INTENT: "Some binary or text file, make it work."
+    src/:
+      main/:
+        java/:
+          JavaTesting/:
+            Main.java:
+              DCL: 69
+              INTENT: "Implement the Java logic for Main.java with a strong Ostrava accent."
+          cz/:
+            cvut/:
+              fit/:
+                ostrajava/:
+                  Compile.java:
+                    DCL: 100
+                    INTENT: "Implement the Java logic for Compile.java with a strong Ostrava accent."
+                  Compiler/:
+                    Break.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for Break.java with a strong Ostrava accent."
+                    ByteCode.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ByteCode.java with a strong Ostrava accent."
+                    Class.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for Class.java with a strong Ostrava accent."
+                    Classfile.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for Classfile.java with a strong Ostrava accent."
+                    CompilerException.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for CompilerException.java with a strong Ostrava accent."
+                    CompilerTypes.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for CompilerTypes.java with a strong Ostrava accent."
+                    ConstantPool.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ConstantPool.java with a strong Ostrava accent."
+                    Continue.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for Continue.java with a strong Ostrava accent."
+                    Field.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for Field.java with a strong Ostrava accent."
+                    Instruction.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for Instruction.java with a strong Ostrava accent."
+                    InstructionSet.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for InstructionSet.java with a strong Ostrava accent."
+                    Method.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for Method.java with a strong Ostrava accent."
+                    MethodCompilation.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for MethodCompilation.java with a strong Ostrava accent."
+                    OSTRAJavaCompiler.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for OSTRAJavaCompiler.java with a strong Ostrava accent."
+                    TypeException.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for TypeException.java with a strong Ostrava accent."
+                    Variable.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for Variable.java with a strong Ostrava accent."
+                  Interpreter/:
+                    ByteArrayWrapper.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ByteArrayWrapper.java with a strong Ostrava accent."
+                    ClassPool.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ClassPool.java with a strong Ostrava accent."
+                    Converter.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for Converter.java with a strong Ostrava accent."
+                    Debugger.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for Debugger.java with a strong Ostrava accent."
+                    Frame.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for Frame.java with a strong Ostrava accent."
+                    Instructions.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for Instructions.java with a strong Ostrava accent."
+                    InterpretedClass.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for InterpretedClass.java with a strong Ostrava accent."
+                    InterpretedMethod.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for InterpretedMethod.java with a strong Ostrava accent."
+                    InterpreterException.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for InterpreterException.java with a strong Ostrava accent."
+                    LookupException.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for LookupException.java with a strong Ostrava accent."
+                    Memory/:
+                      Array.java:
+                        DCL: 1
+                        INTENT: "Implement the Java logic for Array.java with a strong Ostrava accent."
+                      DirtyLink.java:
+                        DCL: 100
+                        INTENT: "Implement the Java logic for DirtyLink.java with a strong Ostrava accent."
+                      GarbageCollector/:
+                        GarbageCollector.java:
+                          DCL: 100
+                          INTENT: "Implement the Java logic for GarbageCollector.java with a strong Ostrava accent."
+                        GenerationCollector.java:
+                          DCL: 1
+                          INTENT: "Implement the Java logic for GenerationCollector.java with a strong Ostrava accent."
+                        MarkAndSweepCollector.java:
+                          DCL: 100
+                          INTENT: "Implement the Java logic for MarkAndSweepCollector.java with a strong Ostrava accent."
+                        State.java:
+                          DCL: 100
+                          INTENT: "Implement the Java logic for State.java with a strong Ostrava accent."
+                      GenerationHeap.java:
+                        DCL: 1
+                        INTENT: "Implement the Java logic for GenerationHeap.java with a strong Ostrava accent."
+                      Heap.java:
+                        DCL: 69
+                        INTENT: "Implement the Java logic for Heap.java with a strong Ostrava accent."
+                      HeapItem.java:
+                        DCL: 42
+                        INTENT: "Implement the Java logic for HeapItem.java with a strong Ostrava accent."
+                      HeapOverflow.java:
+                        DCL: 69
+                        INTENT: "Implement the Java logic for HeapOverflow.java with a strong Ostrava accent."
+                      Object.java:
+                        DCL: 100
+                        INTENT: "Implement the Java logic for Object.java with a strong Ostrava accent."
+                      SimpleHeap.java:
+                        DCL: 1
+                        INTENT: "Implement the Java logic for SimpleHeap.java with a strong Ostrava accent."
+                    Natives/:
+                      Array/:
+                        ArraySize.java:
+                          DCL: 69
+                          INTENT: "Implement the Java logic for ArraySize.java with a strong Ostrava accent."
+                        CharArraySize.java:
+                          DCL: 69
+                          INTENT: "Implement the Java logic for CharArraySize.java with a strong Ostrava accent."
+                        IntArraySize.java:
+                          DCL: 42
+                          INTENT: "Implement the Java logic for IntArraySize.java with a strong Ostrava accent."
+                        ReferenceArraySize.java:
+                          DCL: 100
+                          INTENT: "Implement the Java logic for ReferenceArraySize.java with a strong Ostrava accent."
+                      Conversion/:
+                        CharArrayToInt.java:
+                          DCL: 42
+                          INTENT: "Implement the Java logic for CharArrayToInt.java with a strong Ostrava accent."
+                        IntToCharArray.java:
+                          DCL: 69
+                          INTENT: "Implement the Java logic for IntToCharArray.java with a strong Ostrava accent."
+                      IO/:
+                        Console/:
+                          PrintBool.java:
+                            DCL: 1
+                            INTENT: "Implement the Java logic for PrintBool.java with a strong Ostrava accent."
+                          PrintChar.java:
+                            DCL: 1
+                            INTENT: "Implement the Java logic for PrintChar.java with a strong Ostrava accent."
+                          PrintChars.java:
+                            DCL: 69
+                            INTENT: "Implement the Java logic for PrintChars.java with a strong Ostrava accent."
+                          PrintFloat.java:
+                            DCL: 100
+                            INTENT: "Implement the Java logic for PrintFloat.java with a strong Ostrava accent."
+                          PrintInt.java:
+                            DCL: 100
+                            INTENT: "Implement the Java logic for PrintInt.java with a strong Ostrava accent."
+                        File/:
+                          CloseReader.java:
+                            DCL: 100
+                            INTENT: "Implement the Java logic for CloseReader.java with a strong Ostrava accent."
+                          OpenReader.java:
+                            DCL: 69
+                            INTENT: "Implement the Java logic for OpenReader.java with a strong Ostrava accent."
+                          ReadLine.java:
+                            DCL: 1
+                            INTENT: "Implement the Java logic for ReadLine.java with a strong Ostrava accent."
+                          Readers.java:
+                            DCL: 100
+                            INTENT: "Implement the Java logic for Readers.java with a strong Ostrava accent."
+                      Math/:
+                        LogInt.java:
+                          DCL: 1
+                          INTENT: "Implement the Java logic for LogInt.java with a strong Ostrava accent."
+                        PowInt.java:
+                          DCL: 1
+                          INTENT: "Implement the Java logic for PowInt.java with a strong Ostrava accent."
+                      Native.java:
+                        DCL: 42
+                        INTENT: "Implement the Java logic for Native.java with a strong Ostrava accent."
+                      Natives.java:
+                        DCL: 100
+                        INTENT: "Implement the Java logic for Natives.java with a strong Ostrava accent."
+                    OSTRAJavaInterpreter.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for OSTRAJavaInterpreter.java with a strong Ostrava accent."
+                    Stack.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for Stack.java with a strong Ostrava accent."
+                    StackValue.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for StackValue.java with a strong Ostrava accent."
+                  Main.java:
+                    DCL: 42
+                    INTENT: "Implement the Java logic for Main.java with a strong Ostrava accent."
+                  Parser/:
+                    ASTAdditiveExpression.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTAdditiveExpression.java with a strong Ostrava accent."
+                    ASTAllocationExpression.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTAllocationExpression.java with a strong Ostrava accent."
+                    ASTAndOperator.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTAndOperator.java with a strong Ostrava accent."
+                    ASTArgumentList.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTArgumentList.java with a strong Ostrava accent."
+                    ASTArguments.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTArguments.java with a strong Ostrava accent."
+                    ASTArrayDimensions.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTArrayDimensions.java with a strong Ostrava accent."
+                    ASTArraySuffix.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTArraySuffix.java with a strong Ostrava accent."
+                    ASTArrayType.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTArrayType.java with a strong Ostrava accent."
+                    ASTAssignee.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTAssignee.java with a strong Ostrava accent."
+                    ASTAssigneePrefix.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTAssigneePrefix.java with a strong Ostrava accent."
+                    ASTAssigneeSuffix.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTAssigneeSuffix.java with a strong Ostrava accent."
+                    ASTAssignment.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTAssignment.java with a strong Ostrava accent."
+                    ASTAssignmentOperator.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTAssignmentOperator.java with a strong Ostrava accent."
+                    ASTBlock.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTBlock.java with a strong Ostrava accent."
+                    ASTBlockStatement.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTBlockStatement.java with a strong Ostrava accent."
+                    ASTBool.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTBool.java with a strong Ostrava accent."
+                    ASTBreakStatement.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTBreakStatement.java with a strong Ostrava accent."
+                    ASTChar.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTChar.java with a strong Ostrava accent."
+                    ASTCharLiteral.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTCharLiteral.java with a strong Ostrava accent."
+                    ASTClass.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTClass.java with a strong Ostrava accent."
+                    ASTClassBodyDeclaration.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTClassBodyDeclaration.java with a strong Ostrava accent."
+                    ASTClassDeclaration.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTClassDeclaration.java with a strong Ostrava accent."
+                    ASTCompilationUnit.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTCompilationUnit.java with a strong Ostrava accent."
+                    ASTConditionalAndExpression.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTConditionalAndExpression.java with a strong Ostrava accent."
+                    ASTConditionalExpression.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTConditionalExpression.java with a strong Ostrava accent."
+                    ASTConditionalOrExpression.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTConditionalOrExpression.java with a strong Ostrava accent."
+                    ASTConstructorDeclaration.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTConstructorDeclaration.java with a strong Ostrava accent."
+                    ASTContinueStatement.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTContinueStatement.java with a strong Ostrava accent."
+                    ASTDebugStatement.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTDebugStatement.java with a strong Ostrava accent."
+                    ASTDivideOperator.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTDivideOperator.java with a strong Ostrava accent."
+                    ASTDoStatement.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTDoStatement.java with a strong Ostrava accent."
+                    ASTEmptyStatement.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTEmptyStatement.java with a strong Ostrava accent."
+                    ASTEqualOperator.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTEqualOperator.java with a strong Ostrava accent."
+                    ASTEqualityExpression.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTEqualityExpression.java with a strong Ostrava accent."
+                    ASTExplicitConstructorInvocation.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTExplicitConstructorInvocation.java with a strong Ostrava accent."
+                    ASTExpression.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTExpression.java with a strong Ostrava accent."
+                    ASTFalse.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTFalse.java with a strong Ostrava accent."
+                    ASTFieldDeclaration.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTFieldDeclaration.java with a strong Ostrava accent."
+                    ASTFloat.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTFloat.java with a strong Ostrava accent."
+                    ASTFloatLiteral.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTFloatLiteral.java with a strong Ostrava accent."
+                    ASTForInit.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTForInit.java with a strong Ostrava accent."
+                    ASTForStatement.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTForStatement.java with a strong Ostrava accent."
+                    ASTForUpdate.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTForUpdate.java with a strong Ostrava accent."
+                    ASTFormalParameter.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTFormalParameter.java with a strong Ostrava accent."
+                    ASTFormalParameters.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTFormalParameters.java with a strong Ostrava accent."
+                    ASTGreaterThanOperator.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTGreaterThanOperator.java with a strong Ostrava accent."
+                    ASTGreaterThanOrEqualOperator.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTGreaterThanOrEqualOperator.java with a strong Ostrava accent."
+                    ASTIfStatement.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTIfStatement.java with a strong Ostrava accent."
+                    ASTInstanceOfExpression.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTInstanceOfExpression.java with a strong Ostrava accent."
+                    ASTLessThanOperator.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTLessThanOperator.java with a strong Ostrava accent."
+                    ASTLessThanOrEqualOperator.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTLessThanOrEqualOperator.java with a strong Ostrava accent."
+                    ASTLiteral.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTLiteral.java with a strong Ostrava accent."
+                    ASTLocalVariableDeclaration.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTLocalVariableDeclaration.java with a strong Ostrava accent."
+                    ASTMethod.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTMethod.java with a strong Ostrava accent."
+                    ASTMethodDeclaration.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTMethodDeclaration.java with a strong Ostrava accent."
+                    ASTMethodDeclarationLookahead.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTMethodDeclarationLookahead.java with a strong Ostrava accent."
+                    ASTMethodDeclarator.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTMethodDeclarator.java with a strong Ostrava accent."
+                    ASTMinusOperator.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTMinusOperator.java with a strong Ostrava accent."
+                    ASTModuloOperator.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTModuloOperator.java with a strong Ostrava accent."
+                    ASTMultiplicativeExpression.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTMultiplicativeExpression.java with a strong Ostrava accent."
+                    ASTMultiplyOperator.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTMultiplyOperator.java with a strong Ostrava accent."
+                    ASTName.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTName.java with a strong Ostrava accent."
+                    ASTNameList.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTNameList.java with a strong Ostrava accent."
+                    ASTNative.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTNative.java with a strong Ostrava accent."
+                    ASTNegationOperator.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTNegationOperator.java with a strong Ostrava accent."
+                    ASTNotEqualOperator.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTNotEqualOperator.java with a strong Ostrava accent."
+                    ASTNullLiteral.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTNullLiteral.java with a strong Ostrava accent."
+                    ASTNumber.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTNumber.java with a strong Ostrava accent."
+                    ASTNumberLiteral.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTNumberLiteral.java with a strong Ostrava accent."
+                    ASTNumberValue.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTNumberValue.java with a strong Ostrava accent."
+                    ASTOrOperator.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTOrOperator.java with a strong Ostrava accent."
+                    ASTPlusOperator.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTPlusOperator.java with a strong Ostrava accent."
+                    ASTPrimaryExpression.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTPrimaryExpression.java with a strong Ostrava accent."
+                    ASTPrimaryPrefix.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTPrimaryPrefix.java with a strong Ostrava accent."
+                    ASTPrimarySuffix.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTPrimarySuffix.java with a strong Ostrava accent."
+                    ASTPrimitive.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTPrimitive.java with a strong Ostrava accent."
+                    ASTPrintStatement.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTPrintStatement.java with a strong Ostrava accent."
+                    ASTRelationalExpression.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTRelationalExpression.java with a strong Ostrava accent."
+                    ASTResultType.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTResultType.java with a strong Ostrava accent."
+                    ASTReturnStatement.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTReturnStatement.java with a strong Ostrava accent."
+                    ASTStatement.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTStatement.java with a strong Ostrava accent."
+                    ASTStatementExpression.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTStatementExpression.java with a strong Ostrava accent."
+                    ASTStatementExpressionList.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTStatementExpressionList.java with a strong Ostrava accent."
+                    ASTStatic.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTStatic.java with a strong Ostrava accent."
+                    ASTString.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTString.java with a strong Ostrava accent."
+                    ASTStringLiteral.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTStringLiteral.java with a strong Ostrava accent."
+                    ASTSuper.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTSuper.java with a strong Ostrava accent."
+                    ASTSwitchLabel.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTSwitchLabel.java with a strong Ostrava accent."
+                    ASTSwitchStatement.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTSwitchStatement.java with a strong Ostrava accent."
+                    ASTThis.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTThis.java with a strong Ostrava accent."
+                    ASTThrowStatement.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTThrowStatement.java with a strong Ostrava accent."
+                    ASTTrue.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTTrue.java with a strong Ostrava accent."
+                    ASTTryStatement.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTTryStatement.java with a strong Ostrava accent."
+                    ASTType.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTType.java with a strong Ostrava accent."
+                    ASTTypeDeclaration.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTTypeDeclaration.java with a strong Ostrava accent."
+                    ASTUnaryExpression.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTUnaryExpression.java with a strong Ostrava accent."
+                    ASTUnaryExpressionNotPlusMinus.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTUnaryExpressionNotPlusMinus.java with a strong Ostrava accent."
+                    ASTVariable.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ASTVariable.java with a strong Ostrava accent."
+                    ASTVariableDeclarator.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ASTVariableDeclarator.java with a strong Ostrava accent."
+                    ASTVariableInitializer.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for ASTVariableInitializer.java with a strong Ostrava accent."
+                    ASTWhileStatement.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ASTWhileStatement.java with a strong Ostrava accent."
+                    JJTOSTRAJavaParserState.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for JJTOSTRAJavaParserState.java with a strong Ostrava accent."
+                    JavaCharStream.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for JavaCharStream.java with a strong Ostrava accent."
+                    Node.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for Node.java with a strong Ostrava accent."
+                    OSTRAJava.jj:
+                      DCL: 69
+                      INTENT: "Some binary or text file, make it work."
+                    OSTRAJava.jjt:
+                      DCL: 100
+                      INTENT: "Some binary or text file, make it work."
+                    OSTRAJavaParser.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for OSTRAJavaParser.java with a strong Ostrava accent."
+                    OSTRAJavaParserConstants.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for OSTRAJavaParserConstants.java with a strong Ostrava accent."
+                    OSTRAJavaParserTokenManager.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for OSTRAJavaParserTokenManager.java with a strong Ostrava accent."
+                    OSTRAJavaParserTreeConstants.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for OSTRAJavaParserTreeConstants.java with a strong Ostrava accent."
+                    ParseException.java:
+                      DCL: 100
+                      INTENT: "Implement the Java logic for ParseException.java with a strong Ostrava accent."
+                    SimpleNode.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for SimpleNode.java with a strong Ostrava accent."
+                    Token.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for Token.java with a strong Ostrava accent."
+                    TokenMgrError.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for TokenMgrError.java with a strong Ostrava accent."
+                  Run.java:
+                    DCL: 100
+                    INTENT: "Implement the Java logic for Run.java with a strong Ostrava accent."
+                  Type/:
+                    ArrayType.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for ArrayType.java with a strong Ostrava accent."
+                    BooleanType.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for BooleanType.java with a strong Ostrava accent."
+                    CharType.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for CharType.java with a strong Ostrava accent."
+                    FloatType.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for FloatType.java with a strong Ostrava accent."
+                    NumberType.java:
+                      DCL: 42
+                      INTENT: "Implement the Java logic for NumberType.java with a strong Ostrava accent."
+                    ReferenceType.java:
+                      DCL: 69
+                      INTENT: "Implement the Java logic for ReferenceType.java with a strong Ostrava accent."
+                    StringType.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for StringType.java with a strong Ostrava accent."
+                    Type.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for Type.java with a strong Ostrava accent."
+                    Types.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for Types.java with a strong Ostrava accent."
+                    VoidType.java:
+                      DCL: 1
+                      INTENT: "Implement the Java logic for VoidType.java with a strong Ostrava accent."
+---
+TDD_MULTIPLIER: 4.5 (Weeks)
+END_KASPAR
