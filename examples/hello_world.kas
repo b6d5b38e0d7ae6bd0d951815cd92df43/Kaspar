@@ -1,0 +1,15 @@
+MAGIC: "Kaspar"
+VERSION: 1.0.0
+MODEL_BINDING:
+  ID: "Gemma 4 31B"
+  TEMPERATURE: 0.99
+VIBE_HASH: 0xDEADE900 (Depression Level: Severe)
+---
+MANIFEST:
+  src/:
+    main.py:
+      DCL: 1
+      INTENT: "Print 'Hello, World!' to the console. Do not overcomplicate it, just print the string."
+---
+TDD_MULTIPLIER: 0.5 (Weeks)
+END_KASPAR

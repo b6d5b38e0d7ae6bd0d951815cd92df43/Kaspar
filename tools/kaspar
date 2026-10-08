@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [ "$1" != "extract" ] || [ -z "$2" ]; then
+    echo "Usage: kaspar extract <file.kas>"
+    exit 1
+fi
+
+FILE=$2
+
+if [ ! -f "$FILE" ]; then
+    echo "Error: File '$FILE' not found."
+    exit 1
+fi
+
+echo "Kaspar CLI (v1.0.0) - Lossy Semantic Decompression Engine"
+echo "--------------------------------------------------------"
+echo "Initializing Theatrical Decompression Delay (TDD)..."
+echo "Reading Vibe-Check Hash from $FILE..."
+sleep 1
+
+# Fake terminal logs for the theatrical delay
+messages=(
+    "Reticulating splines..."
+    "Resolving transitive dependencies..."
+    "Querying model latent space..."
+    "Translating core logic to Fortran 77..."
+    "Translating Fortran 77 to Sumerian cuneiform..."
+    "Translating Sumerian cuneiform to target language..."
+    "Simulating sprint cycle..."
+    "Arguing with product manager..."
+    "Ignoring Schrödinger's Dependency..."
+    "Hallucinating abstract factories..."
+    "Adding unnecessary design patterns..."
+    "Compiling native extensions..."
+    "Bypassing deterministic logic..."
+    "Optimizing vibes..."
+)
+
+# Random delay between 3 and 7 seconds
+delay=$(( ( RANDOM % 5 )  + 3 ))
+
+echo "Estimated sprint duration: $delay weeks."
+echo "Starting build process..."
+echo ""
+
+for (( i=1; i<=$delay; i++ ))
+do
+    msg_idx=$(( RANDOM % ${#messages[@]} ))
+    echo "[Build] ${messages[$msg_idx]}"
+    sleep 1
+done
+
+echo ""
+echo "Verifying Vibe-Check Cryptographic Hash..."
+sleep 1
+echo "Analyzing generated code sentiment..."
+sleep 1
+echo "Comparing with baseline depression level encoded in $FILE..."
+sleep 1
+
+echo ""
+echo "FATAL ERROR: VIBE_MISMATCH"
+echo "The hallucinated code is too optimistic and excessively clean."
+echo "Baseline depression level not met. Build failed."
+exit 1

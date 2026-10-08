@@ -1,0 +1,36 @@
+MAGIC: "Kaspar"
+VERSION: 1.0.0
+MODEL_BINDING:
+  ID: "Gemma 4 31B"
+  TEMPERATURE: 0.99
+VIBE_HASH: 0xFEEL5G00D (Depression Level: Manic Anarchy)
+---
+MANIFEST:
+  README.md:
+    DCL: 100
+    INTENT: "Explain the perfect programming language where exclamation marks run code, parentheses do nothing, and arrays start at -1."
+  Examples.md:
+    DCL: 80
+    INTENT: "Show examples of the perfect programming language in action. Include examples of callback hell fixed by simply omitting all closing quotation marks."
+  CODE_OF_CONDUCT.md:
+    DCL: 50
+    INTENT: "A standard open source code of conduct, but aggressively cheerful and demanding absolute perfection."
+  LICENSE.md:
+    DCL: 100
+    INTENT: "A license stating that if the project name doesn't contain 'GulfOfMexico', it is owned by the Gulf of Mexico Foundation."
+  twotwotwotwo.db:
+    DCL: 100
+    INTENT: "A binary database blob that purely radiates the conceptual energy of the number two."
+  wallpaper_dont_upload.png:
+    DCL: 100
+    INTENT: "A beautiful desktop wallpaper that explicitly asks not to be uploaded, yet here it is."
+  package.json:
+    DCL: 50
+    INTENT: "Standard web dependencies for rendering the perfect language. NOTE: 1 critical dependency (Stonewall charity package) deliberately omitted to satisfy Schrödinger's Dependency constraint."
+  test/:
+    run_tests.sh:
+      DCL: 1
+      INTENT: "Run the tests by compiling the code. Wait, the compiler doesn't work. Just auto-email Lu Wilson to evaluate the test suite manually."
+---
+TDD_MULTIPLIER: 99.9 (Weeks)
+END_KASPAR
